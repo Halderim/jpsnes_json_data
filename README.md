@@ -1,2 +1,6 @@
-# jpsnes_json_data
-Jurassic Park SNES all data in JSON Format
+# Jurassic Park SNES Data Project
+
+## Goal
+
+The goal of this Project is to map the known data of the Game Jurassic Park for the SNES developed by Ocean of America
+
