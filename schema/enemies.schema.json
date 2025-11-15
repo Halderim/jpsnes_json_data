@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Halderim/jpsnes_json_data/master/schema/enemies.schema.json",
+  "type": "object",
+  "properties": {
+    "enemies": {
+      "type": "array",
+      "description": "All enemies and stats",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "size": {
+            "enum": [
+              "small",
+              "medium",
+              "big",
+              "giant"
+            ],
+            "type": "string"
+          },
+          "movementPattern": {
+            "type": "string",
+            "description": "how does the enemy move "
+          },
+          "threat_lvl": {
+            "type": "string",
+            "description": "how dangerous is the enemy to the player"
+          },
+          "damagePlayer": {
+            "type": "string",
+            "description": "How much damage does the enemy to the player"
+          },
+          "health": {
+            "type": "string",
+            "description": "How much damage does it take to kill the enemy"
+          },
+          "damageByShotgun": {
+            "type": "string",
+            "description": "How much damage does one shotgun bullet "
+          },
+          "canBeStunned": {
+            "type": "boolean",
+            "description": "Can the enemy be stunned by non lethal weapons"
+          },
+          "dartKnockback": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "size",
+          "movementPattern",
+          "threat_lvl",
+          "damagePlayer",
+          "health",
+          "damageByShotgun",
+          "canBeStunned"
+        ]
+      }
+    }
+  },
+  "required": [
+    "enemies"
+  ]
+}
