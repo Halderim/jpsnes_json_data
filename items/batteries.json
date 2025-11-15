@@ -1,0 +1,60 @@
+{
+    "batteries": [
+        {
+            "id": 1,
+            "name": "Nublar Battery",
+            "type": "battery",
+            "building": 1,
+            "floor": 1,
+            "room": 1
+        },
+        {
+            "id": 2,
+            "name": "Beach Battery",
+            "type": "battery",
+            "building": 2,
+            "floor": 1,
+            "room": 1
+        },
+        {
+            "id": 3,
+            "name": "North Battery",
+            "type": "battery",
+            "building": 3,
+            "floor": 1,
+            "room": 1
+        },
+        {
+            "id": 4,
+            "name": "Ship Battery",
+            "type": "battery",
+            "building": 4,
+            "floor": 1,
+            "room": 1
+        },
+        {
+            "id": 5,
+            "name": "Ship Battery 2",
+            "type": "battery",
+            "building": 4,
+            "floor": 2,
+            "room": 1
+        },
+        {
+            "id": 6,
+            "name": "Raptor Pen Battery",
+            "type": "battery",
+            "building": 5,
+            "floor": 1,
+            "room": 1
+        },
+        {
+            "id": 7,
+            "name": "Visitor Center Battery",
+            "type": "battery",
+            "building": 6,
+            "floor": 1,
+            "room": 1
+        }
+    ]
+}

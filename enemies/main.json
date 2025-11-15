@@ -1,0 +1,128 @@
+{
+    "enemies": [
+        {
+            "id": 1,
+            "name": "Compsognathus",
+            "size": "small",
+            "movementPattern": "random",
+            "threat_lvl": "small",
+            "damagePlayer": "0x14",
+            "health": "0x01",
+            "damageByShotgun": "0x01",
+            "canBeStunned": false
+        },
+        {
+            "id": 2,
+            "name": "Dragonfly",
+            "size": "medium",
+            "movementPattern": "follow",
+            "threat_lvl": "small",
+            "damagePlayer": "0x30",
+            "health": "0x08",
+            "damageByShotgun": "0x08",
+            "canBeStunned": false
+        },
+        {
+            "id": 3,
+            "name": "Pachycephalosaurus",
+            "size": "medium",
+            "movementPattern": "follow",
+            "threat_lvl": "medium",
+            "damagePlayer": "0x30",
+            "health": "0x14",
+            "damageByShotgun": "0x0B",
+            "canBeStunned": false
+        },
+        {
+            "id": 4,
+            "name": "Velociraptor",
+            "size": "big",
+            "movementPattern": "follow",
+            "threat_lvl": "high",
+            "damagePlayer": "0x40",
+            "health": "0x46",
+            "damageByShotgun": "0x18",
+            "stunTimer": "0x0258",
+            "canBeStunned": true
+        },
+        {
+            "id": 5,
+            "name": "Velociraptor (interior)",
+            "size": "big",
+            "movementPattern": "alert",
+            "threat_lvl": "high",
+            "damagePlayer": "0x08",
+            "health": "0x46",
+            "damageByShotgun": "0x18",
+            "stunTimer": "0x0258",
+            "canBeStunned": true
+        },
+        {
+            "id": 6,
+            "name": "Dilophosaur",
+            "size": "big",
+            "movementPattern": "random",
+            "threat_lvl": "medium",
+            "damagePlayer": "0x30",
+            "health": "0x3C",
+            "damageByShotgun": "0x20",
+            "canBeStunned": false
+        },
+        {
+            "id": 7,
+            "name": "Dilophosaur (interior)",
+            "size": "big",
+            "movementPattern": "stationary",
+            "threat_lvl": "medium",
+            "damagePlayer": "0x30",
+            "health": "0x3C",
+            "damageByShotgun": "0x20",
+            "canBeStunned": true
+        },
+        {
+            "id": 8,
+            "name": "Gallimimus small",
+            "size": "medium",
+            "movementPattern": "line",
+            "threat_lvl": "small",
+            "damagePlayer": "0x40",
+            "health": "0x1E",
+            "damageByShotgun": "0x1E",
+            "canBeStunned": false
+        },
+        {
+            "id": 9,
+            "name": "Gallimimus big",
+            "size": "big",
+            "movementPattern": "line",
+            "threat_lvl": "small",
+            "damagePlayer": "0x40",
+            "health": "0x1E",
+            "damageByShotgun": "0x1E",
+            "canBeStunned": false
+        },
+        {
+            "id": 10,
+            "name": "Triceratops",
+            "size": "big",
+            "movementPattern": "line",
+            "threat_lvl": "medium",
+            "damagePlayer": "0x256",
+            "health": null,
+            "damageByShotgun": null,
+            "canBeStunned": false
+        },
+        {
+            "id": 11,
+            "name": "T-Rex",
+            "size": "giant",
+            "movementPattern": "follow",
+            "threat_lvl": "high",
+            "damagePlayer": "0x256",
+            "health": null,
+            "damageByShotgun": null,
+            "canBeStunned": true,
+            "dartKnockback": "0x10"
+        }
+    ]
+}

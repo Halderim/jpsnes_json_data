@@ -1,0 +1,72 @@
+{
+    "weapons": [
+        {
+            "id": 1,
+            "name": "Cattleprod",
+            "type": "weapon",
+            "slot": "primary",
+            "pickup": false,
+            "canActivateGate": true,
+            "damageType": "Damage over time",
+            "doesStun": true,
+            "multihit": true
+        },
+        {
+            "id": 2,
+            "name": "Shotgun",
+            "type": "weapon",
+            "slot": "primary",
+            "pickup": true,
+            "canActivateGate": true,
+            "damageType": "bullet",
+            "doesStun": false,
+            "multihit": false
+            
+        },
+        {
+            "id": 3,
+            "name": "Rocket",
+            "type": "weapon",
+            "slot": "primary",
+            "pickup": true,
+            "canActivateGate": true,
+            "damageType": "max damage",
+            "doesStun": false,
+            "multihit":false
+        },
+        {
+            "id": 4,
+            "name": "Dart",
+            "type": "weapon",
+            "slot": "primary",
+            "pickup": true,
+            "canActivateGate": false,
+            "damageType": "max damage",
+            "doesStun": true,
+            "multihit": false
+        },
+        {
+            "id": 5,
+            "name": "Bola Snare",
+            "type": "weapon",
+            "slot": "secondary",
+            "pickup": true,
+            "canActivateGate": false,
+            "damageType": "max damage",
+            "doesStun": false,
+            "multihit": true
+        },
+        {
+            "id": 6,
+            "name": "Gas Grenade",
+            "type": "weapon",
+            "slot": "secondary",
+            "pickup": true,
+            "canActivateGate": false,
+            "damageType": "stun",
+            "doesStun": true,
+            "multihit": true
+        }
+        
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "idcards": [
+        {
+            "id":1,
+            "name": "Ian Malcolm ID",
+            "building": 6,
+            "floor": 2,
+            "room": 2
+        }
+    ]
+}

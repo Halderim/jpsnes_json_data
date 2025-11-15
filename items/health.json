@@ -1,0 +1,16 @@
+{
+    "health": [
+        {
+            "id": 1,
+            "name": "Medikit",
+            "type": "health",
+            "restoredHealth": "full"
+        },
+        {
+            "id": 2,
+            "name": "food",
+            "type":"health",
+            "restoredHealth": "0x80"
+        }
+    ]
+}
